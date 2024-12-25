@@ -1,0 +1,22 @@
+{
+  "name": "autobus",
+  "version": "1.0.0",
+  "description": "Онлайн расписание автобусов",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "type": "module",
+  "author": "Artem Mamykin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "luxon": "^3.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
